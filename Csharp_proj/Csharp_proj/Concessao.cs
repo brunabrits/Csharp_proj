@@ -17,7 +17,7 @@ namespace Csharp_proj
         public double multa;
         
 
-        public void cadastrarLocacao()
+        public void cadastrarConcessao()
         {
 
             data_inicial = DateTime.Now;

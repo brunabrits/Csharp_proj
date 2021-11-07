@@ -15,10 +15,10 @@ namespace Csharp_proj
         private string editora;
     }
 
-    public virtual void cadastrarLivro()
-    {
+    public virtual void cadastrarLivro(){
+
         Console.WriteLine("Digite o nome");
-        nome =  Console.ReadLine();
+        nome = Console.ReadLine();
         
         Console.WriteLine("Digite o Gênero");
         genero = Console.ReadLine();
@@ -32,15 +32,6 @@ namespace Csharp_proj
         Console.WriteLine("Digite o nome da Editora");
         editora = Console.ReadLine();
        
-    }
-
-    public virtual void visualizarLivro()
-    {
-        Console.WriteLine("Nome: {0}", nome);
-        Console.WriteLine("Gênero: {0}", genero);
-        Console.WriteLine("Autora: {0}", autora);
-        Console.WriteLine("Data de Lançamento: {0}", data_lancamento.Year);
-        Console.WriteLine("Editora: {0}", editora);
     }
 
 }

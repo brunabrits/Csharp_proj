@@ -34,7 +34,7 @@ namespace Csharp_proj
 
         }
 
-        public void mostrarCadastro()
+        public void mostrarLeitora()
         {
             Console.WriteLine("--- Cadastro ---");
             Console.WriteLine("Nome:{0}", nome);

@@ -11,11 +11,19 @@ namespace Csharp_proj
         public string menu()
         {
             Console.Clear();
-            Console.WriteLine("1 -Cadastrar Livro")
-            Console.WriteLine("2 -Cadastrar Cliente")
-            Console.WriteLine("1 -Cadastrar Livro")
-            Console.WriteLine("1 -Cadastrar Livro")
+            Console.WriteLine("1 -Cadastrar Leitora(O)");
+            Console.WriteLine("2 -Cadastrar Livro");
+            Console.WriteLine("3 -Cadastrar Revista");
+            Console.WriteLine("4 -Fazer um Concessão");
+            Console.WriteLine("5 -Exibir Cadastro Leitora");
+            Console.WriteLine("S -Para Sair ");
+            Console.WriteLine("Escolha uma opção:");
+            string opcao;
+            opcao = Console.ReadLine();
+            return opcao.ToUpper();
+
         }
 
     }
 }
+

@@ -8,8 +8,8 @@ namespace Csharp_proj
 {
     class Revista : Livro
     {
-        public string frequencia;
-        public string orientacao_Politica;
+       public string frequencia;
+       public string orientacao_politica;
     }
     public override void cadastrarLivro()
     {
@@ -23,13 +23,4 @@ namespace Csharp_proj
         orientacao_politica = Console.ReadLine();
 
     }
-
-    public override void visualizarLivro()
-    {
-        base.visualizarLivro();
-        Console.WriteLine("Frequencia semanal:{0}", frequencia);
-        Console.WriteLine("Orientação Política:{0}", orientacao_politica);
-    }
-
-
 }
