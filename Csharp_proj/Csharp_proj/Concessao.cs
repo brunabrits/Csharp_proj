@@ -56,12 +56,5 @@ namespace Csharp_proj
             Console.WriteLine(" Devolvido em{0}", data_final.Date);
         }
 
-
-
-
-
-
-
-
     }
 }

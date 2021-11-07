@@ -18,7 +18,7 @@ namespace Csharp_proj
     public virtual void cadastrarLivro()
     {
         Console.WriteLine("Digite o nome");
-        nome = Console.ReadLine();
+        nome =  Console.ReadLine();
         
         Console.WriteLine("Digite o Gênero");
         genero = Console.ReadLine();
