@@ -15,11 +15,10 @@ namespace Csharp_proj
         private string editora;
     }
 
-    public virtual void cadastrarLivro(){
+    public void cadastrarLivro(){
 
         Console.WriteLine("Digite o nome");
         nome = Console.ReadLine();
-        
         Console.WriteLine("Digite o Gênero");
         genero = Console.ReadLine();
 

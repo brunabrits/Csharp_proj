@@ -23,4 +23,15 @@ namespace Csharp_proj
         orientacao_politica = Console.ReadLine();
 
     }
+    public virtual void visualizarLivro()
+    {
+        Console.WriteLine("Nome: {0}", nome);
+        Console.WriteLine("Gênero: {0}", genero);
+        Console.WriteLine("Autora: {0}", autora);
+        Console.WriteLine("Data de Lançamento: {0}", data_lancamento.Year);
+        Console.WriteLine("Editora: {0}", editora);
+    }
+
+
+
 }

@@ -10,7 +10,7 @@ namespace Csharp_proj
     {
 
         private string nome;
-        private double CPF;
+        private double cpf;
         private string endereco;         
         private double telefone;
         private string email;
@@ -21,7 +21,7 @@ namespace Csharp_proj
             nome = Console.ReadLine();
 
             Console.WriteLine("Digite o CPF");
-            CPF = double.Parse(Console.ReadLine());
+            cpf = double.Parse(Console.ReadLine());
 
             Console.WriteLine("Digite o seu endereço");
             endereco = Console.ReadLine();
@@ -38,7 +38,7 @@ namespace Csharp_proj
         {
             Console.WriteLine("--- Cadastro ---");
             Console.WriteLine("Nome:{0}", nome);
-            Console.WriteLine("CPF:{0}", CPF);
+            Console.WriteLine("CPF:{0}", cpf);
             Console.WriteLine("Endereço:{0}", endereco);
             Console.WriteLine("Telefone:{0}", telefone);
             Console.WriteLine("Email:{0}", email);
