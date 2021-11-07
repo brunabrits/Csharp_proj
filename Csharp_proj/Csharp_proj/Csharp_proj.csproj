@@ -40,7 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Leitora.cs" />
+    <Compile Include="Livro.cs" />
+    <Compile Include="Concessao.cs" />
     <Compile Include="Menu.cs" />
+    <Compile Include="Revista.cs" />
     <Compile Include="TipoL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

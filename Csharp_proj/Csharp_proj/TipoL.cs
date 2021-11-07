@@ -11,3 +11,4 @@ namespace Csharp_proj
         public string TRIAL { get; set; }
     }
 }
+  
