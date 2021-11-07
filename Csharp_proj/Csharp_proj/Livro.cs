@@ -23,7 +23,7 @@ namespace Csharp_proj
         Console.WriteLine("Digite o Gênero");
         genero = Console.ReadLine();
 
-        Console.WriteLine("Digite o nome do Autora(o)");
+        Console.WriteLine("Digite o nome da Autora(o)");
         autora = Console.ReadLine();
 
             Console.WriteLine("Digite a data de lançamento");

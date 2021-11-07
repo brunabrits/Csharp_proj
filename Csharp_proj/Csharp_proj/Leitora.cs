@@ -50,10 +50,5 @@ namespace Csharp_proj
 
 
     }
-
-
-
-
-
 }
 

@@ -22,7 +22,7 @@ namespace Csharp_proj
 
             data_inicial = DateTime.Now;
             Console.WriteLine(data_inicial.Date);
-            Console.WriteLine("Digite o motivo da locacao");
+            Console.WriteLine("Digite qual livro deseja escolher");
             descricao = Console.ReadLine();
         }
 
@@ -47,7 +47,7 @@ namespace Csharp_proj
 
         public void mostrarTotal()
         {
-            Console.WriteLine("Valor Total, locacao + multa : {0}", multa + valor_total);
+            Console.WriteLine("Valor Total, concessao + multa : {0}", multa + valor_total);
         }
 
         public void registrarDevolucao()
