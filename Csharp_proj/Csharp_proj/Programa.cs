@@ -20,7 +20,7 @@ namespace Csharp_proj
                 {
                     case "1":
                         Console.WriteLine("Cadastrar Leitora(O)");
-                        Leitora.cadastrarLeitora();
+                        leitora.cadastrarLeitora();
                         Console.ReadKey();
                         break;
 
@@ -33,7 +33,7 @@ namespace Csharp_proj
                     case "3":
                         Console.WriteLine("Cadastrar Revista");
                         Revista revista = new Revista();
-                        revista.cadastrarRevista();
+                        revista.cadastrarLivro();
                         break;
 
                     case "4":
