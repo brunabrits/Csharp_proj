@@ -13,37 +13,60 @@ namespace Csharp_proj
             string opcao;
             Menu menu = new Menu();
             Leitora leitora = new Leitora();
+            Livro livro = new Livro();
+            Concessao concessao = new Concessao();
             do
             {
                 opcao = menu.menu();
                 switch (opcao)
                 {
                     case "1":
-                        Console.WriteLine("Cadastrar Leitora(O)");
+                        Console.WriteLine("Cadastrar Leitora");
                         leitora.cadastrarLeitora();
                         Console.ReadKey();
                         break;
 
                     case "2":
                         Console.WriteLine("Cadastrar Livro");
-                        Livro livro = new Livro();
                         livro.cadastrarLivro();
                         break;
 
                     case "3":
-                        Console.WriteLine("Cadastrar Revista");
-                        Revista revista = new Revista();
-                        revista.cadastrarLivro();
+                        Console.WriteLine("Cadastrar uma Concessão");
+                        concessao.cadastrarConcessao();
+                        Console.ReadKey();
                         break;
 
                     case "4":
-                        Console.WriteLine("Fazer uma Concessão");
-                        Concessao concessao = new Concessao();
-                        concessao.cadastrarConcessao();
+                        leitora.mostrarCadastroLeitora();
+                        Console.ReadKey();
                         break;
 
                     case "5":
-                        leitora.mostrarLeitora();
+                        livro.mostrarCadastroLivro();
+                        Console.ReadKey();
+                        break;
+
+                    case "6":
+                        concessao.mostrarCadastroConcessao();
+                        Console.ReadKey();
+                        break;
+
+                    case "7":
+                        Console.WriteLine("Deletar cadastro leitora");
+                        leitora.deletarCadastroLeitora();
+                        Console.ReadKey();
+                        break;
+
+                    case "8":
+                        Console.WriteLine("Deletar cadastro livro");
+                        livro.deletarCadastroLivro();
+                        Console.ReadKey();
+                        break;
+
+                    case "9":
+                        Console.WriteLine("Deletar cadastro concessão");
+                        concessao.deletarCadastroConcessao();
                         Console.ReadKey();
                         break;
 
